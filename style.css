@@ -7,6 +7,12 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
+responsive {
+   max-width: 60%;
+   height: auto;
+}
+
 .main {
   flex: 1;
 }
