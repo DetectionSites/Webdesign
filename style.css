@@ -1,8 +1,9 @@
 body {
-  font-family: "Poppins", sans-serif, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
-  background-color: #555043;
-  display: center;
+  background-color: #be9519;
+   text-align: center;
+  display: flex;
   flex-direction: column;
   min-height: 95vh;
 }
@@ -15,76 +16,9 @@ responsive {
    height: auto;
 }
 
-
 h1 {
   font-size: 5rem;
-  color: yellow;
-  text-align: center;
-  margin-bottom: 20px;
 }
-
-footer {
-  text-align: bottom, right;
-  font-size: 1.2rem;
-  color: yellow;
-}
-
-  .tile-image {
-    height: 200px;
-    float: left;
-    margin-right: 50px;
-  }
-
-  .card {
-    width: 35%;
-  }
-
-  .left {
-    float: left;
-  }
-
-  .right {
-    float: right;
-  }
-
-  .creative {
-    color: midnightblue;
-  }
-
-  @media (max-width: 680px) {
-    .logo {
-      width: 100px;
-      color: yellow;
-    }
-
-    h1 {
-      font-size: 3.5rem;
-      text-align: left;
-      color: rgb(225, 226, 236);
-    }
-    
-
-    h2 {
-      font: 20px;
-      color: red;
-    }
-
-
-    .card {
-      width: 100%;
-      display: block;
-      margin-bottom: 30px;
-      text-align: justify;
-    }
-    .card img {
-      margin-bottom: 10px;
-      object-fit: cover;
-      width: 100%;
-      display: inline;
-    }
-  }
-
-
 
 footer {
   text-align: right;
@@ -117,4 +51,5 @@ footer {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
 
