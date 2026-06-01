@@ -1,57 +1,76 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif, Georgia, Times, 'Times New Roman', serif;
   margin: 50px 50px 0 50px;
-  /*background-color: #faf9f6;*/
-  background-color: #be9519;
-   text-align: center;
-  display: flex;
+  background-color: #555043;
+  display: center;
   flex-direction: column;
   min-height: 95vh;
 }
-
+.main {
+  flex: 1;
+}
 
 responsive {
    max-width: 60%;
    height: auto;
 }
 
-.main {
-  flex: 1;
-}
 
 h1 {
   font-size: 5rem;
-}
-
-h3 {
-  color: white;
-  font-family: Georgia,'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  color: yellow;
   text-align: center;
+  margin-bottom: 20px;
 }
 
-h4 {
-  color: midnightblue;
-  font-family: Times New Roman,'Montserrat', sans-serif;
-  font-size: 2.0rem;
-  text-align: center;
+footer {
+  text-align: bottom, right;
+  font-size: 1.2rem;
+  color: yellow;
 }
 
-p {
-  /*color: #b90b31;*/
-  color: midnightblue;
-  line-height: 2;
-  font-weight: bold;
+  .tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
   }
 
-hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
+  .card {
+    width: 35%;
+  }
 
-.card {
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .creative {
+    color: midnightblue;
+  }
+
+  @media (max-width: 680px) {
+    .logo {
+      width: 100px;
+      color: yellow;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      text-align: left;
+      color: rgb(225, 226, 236);
+    }
+    
+
+    h2 {
+      font: 20px;
+      color: red;
+    }
+
+
+    .card {
       width: 100%;
       display: block;
       margin-bottom: 30px;
