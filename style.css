@@ -51,6 +51,21 @@ hr {
   margin: 100px auto;
 }
 
+.card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+    .card img {
+      margin-bottom: 10px;
+      object-fit: cover;
+      width: 100%;
+      display: inline;
+    }
+  }
+
+
 
 footer {
   text-align: right;
