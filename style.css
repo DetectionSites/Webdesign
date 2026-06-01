@@ -2,10 +2,11 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
   background-color: #be9519;
-   text-align: center;
+  text-align: center;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
+  color: white;
 }
 
 video-container {
