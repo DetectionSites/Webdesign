@@ -6,7 +6,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 95vh;
-  color: white;
 }
 
 video-container {
@@ -41,6 +40,10 @@ h1 {
   font-size: 5rem;
   color: white;
 }
+
+h2 {
+  font-size: 4rem;
+  color: white;
 
 footer {
   text-align: right;
