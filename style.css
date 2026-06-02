@@ -31,7 +31,7 @@ video-container {
   flex: 1;
 }
 
-responsive {
+.responsive {
    max-width: 60%;
    height: auto;
 }
@@ -53,7 +53,7 @@ h2 {
 
 footer {
   text-align: center;
-  color: red;
+  color: white;
 }
 
 
